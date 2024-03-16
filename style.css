@@ -30,7 +30,7 @@ body {
 .widget-audio {
   width: 100px;
   height: 100px;
-  position: sticky;
+  position: fixed;
   z-index: 3;
   display: flex;
   top: 80%;
@@ -69,7 +69,7 @@ body {
   border-radius: 50%;
   display: flex;
   position: relative;
-  left: 0%;
+  left: 5%;
   top: 20%;
   background-color: var(--pink);
 }

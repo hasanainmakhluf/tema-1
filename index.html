@@ -714,5 +714,19 @@
         });
       });
     </script>
+
+    <script>
+      // Event Ketika Scroll Touchscreen
+    var lastScrollTop = 0;
+      $(window).scroll(function(event){
+      var st = $(this).scrollTop();
+        if (st > lastScrollTop){
+        // downscroll code
+        } else {
+        // upscroll code
+        }
+    lastScrollTop = st;
+    });
+    </script>
   </body>
 </html>
