@@ -30,7 +30,7 @@ body {
 .widget-audio {
   width: 100px;
   height: 100px;
-  position: fixed;
+  position: sticky;
   z-index: 3;
   display: flex;
   top: 80%;
